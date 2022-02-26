@@ -117,7 +117,7 @@ function smg2() {
     img_alternator.style.display = 'none'
     img_car.style.display = 'none'
 
-    img_barrel.style.display = 'block'
+    img_barrel.style.display = 'none'
     img_lightmag.style.display = 'none'
     img_stock.style.display = 'block'
     img_1times.style.display = 'block'
