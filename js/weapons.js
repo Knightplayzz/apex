@@ -7,7 +7,7 @@ var nf = 1
 var SMG = ["submachine", "submachinegun", "smg"]
 var R99 = ["r99", "r9"]
 var Volt = ["volt"]
-var Altenator = ["altenator"]
+var Altenator = ["alternator"]
 var Prowler = ["prowler"]
 var Car = ["car"]
 

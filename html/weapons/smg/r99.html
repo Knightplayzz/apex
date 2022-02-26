@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex | SMG</title>
+    <link rel="stylesheet" href="/apex/style/css/weapons/smg.css">
+    <link rel="shortcut icon" href=".png">
+</head>
+
+
+<body>
+    <div class="toolBar">
+
+        <div class="logo">
+            <h1>Knight</h1>
+            <h2>Playzz</h2>
+        </div>
+
+        <div class="page-btns">
+            <div class="primary-btns">
+                <a href="/apex/index.html"><button class="btn_pages" type="button">Home</button></a>
+                <a href="/apex/html/weapons/weapons.html"><button id="thisPage" class="btn_pages" type="button">Weapons</button></a>
+                <a href="/apex/html/itemshop.html"><button  class="btn_pages" type="button">Item Shop</button></a>
+                <a href="/apex/html/stats.html"><button class="btn_pages" type="button">Stats</button></a>
+            </div>
+            <img id="btn_menu" src="/apex/style/images/menu/menubutton.png" onclick="showHide2()">
+
+            <div id='menupage' class="btn_menu">
+                <a href="/apex/index.html"><button class="menu_pages" type="button">Home</button></a>
+                <p></p>
+                <a href="/apex/html/weapons/weapons.html"><button id="thisPage" class="menu_pages" type="button">Weapons</button></a>
+                <p></p>
+                <a href="/apex/html/itemshop.html"><button  class="menu_pages" type="button">Item Shop</button></a>
+                <p></p>
+                <a href="/apex/html/stats.html"><button class="menu_pages" type="button">Stats</button></a>
+                <p></p>
+                <a href="/apex/html/contact.html"><button class="menu_pages" type="button">Contact</button></a>
+                <p></p>
+                <a href="/apex/html/premium.html"><button class="menu_pages" type="button">Go Premium</button></div></a>
+            </div>
+
+
+            <div class="secondairy-btn">
+                <a href="/apex/html/contact.html"><button id="r-side"class="btn_pages" type="button">Contact</button></a>
+                <a href="/apex/html/premium.html"><button class="btn_premium" type="button">Go Premium</button></div></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-1">
+        <div class="weaponSelect">
+            <button class="buttons" id="btn_drop" onclick="showHide()">Weapons V</button>
+            <button id="button-1" class="buttons" onclick="smg1()">Alternator</button>
+            <button id="button-2" class="buttons" onclick="smg2()">Prowler</button>
+            <button id="button-3" class="buttons" onclick="smg3()">R99</button>
+            <button id="button-4" class="buttons" onclick="smg4()">Volt</button>
+            <button id="button-5" class="buttons" onclick="smg5()">Car</button>
+
+
+        </div>
+
+        <div class="ptw-btns">
+
+            <button class="ptw-btn-r99" id="btn_r99">Pay To Wins Skins</button>
+            <button class="ptw-btn-r99" id="btn_alt">Pay To Wins Skins</button>
+            <button class="ptw-btn-r99" id="btn_outlands" onclick="ptw_r99_1()">Outlands Avalanche</button>
+            <button class="ptw-btn-r99" id="btn_killswitch" onclick="ptw_r99_2()">Kill Switch</button>
+            <button class="ptw-btn-r99" id="btn_alternator" onclick="ptw_alternator_1()">LED REZ</button>
+            <button class="ptw-btn-r99" id="btn_gal" onclick="ptw_alternator_2()">The Galvanizer</button>
+
+        </div>
+
+        <div class="ptw-text">
+            <h2 id="outlands-text">1.2K Crafting Metals.
+                <br> Different style: <button onclick="ptw_r99_3()">unloader</button>
+            </h2>
+            <h2 id="killswitch-text">1.2K Crafting Metals.
+                <br> Different style: <button onclick="ptw_r99_4()">Totally Gnarly</button>
+            </h2>
+            <h2 id="ledrez-text">1.2K Crafting Metals.
+                <br> Different style: <button onclick="ptw_alternator_3()">Palate Cleanser</button>
+            </h2>
+            <h2 id="gal-text">1.2K Crafting Metals.
+                <br> Different style:
+                <br>
+                <button onclick="ptw_alternator_4()">Illuminator</button>
+                <button onclick="ptw_alternator_5()">Ocean Spray</button>
+            </h2>
+
+        </div>
+
+        <img src="/apex/style/images/weapons/smg/alternator/Ocean-Spray-300x300.jpg" class="ptw-r99-img" id="img-ocean" alt="Ocean Spray">
+        <img src="/apex/style/images/weapons/smg/alternator/The-Illuminator-300x300.jpg" class="ptw-r99-img" id="img-illuminator" alt="The Illuminator">
+        <img src="/apex/style/images/weapons/smg/alternator/Palate-Cleanser-300x300.jpg" class="ptw-r99-img" id="img-palate" alt="Palate Cleanser">
+        <img src="/apex/style/images/weapons/smg/alternator/Led-Rez-768x768.jpg" class='ptw-r99-img' id="img-ledrez" alt="Red rez">
+        <img src="/apex/style/images/weapons/smg/alternator/The-Galvanizer-768x768.jpg" class='ptw-r99-img' id="img-gal" alt="galvanizer">
+
+        <img src="/apex/style/images/weapons/smg/r99/Outlands-Avalanch.jpg" class='ptw-r99-img' id="img-outlands" alt="Outlands-Avalanch">
+        <img src="/apex/style/images/weapons/smg/r99/The-Kill-Switch.jpg" class='ptw-r99-img' id="img-killswitch" alt="Kill-Switch">
+
+        <img src="/apex/style/images/weapons/smg/r99/the-unloader.jpg" class='ptw-r99-img' id="img-unloader" alt="The unloader">
+        <img src="/apex/style/images/weapons/smg/r99/the-unloader.jpg" class='ptw-r99-img' id="img-gnarly" alt="Totally Gnarly">
+
+        <img src="/apex/style/images/weapons/attach/barrel.svg" id="img-barrel" alt="barrel">
+        <img src="/apex/style/images/weapons/attach/lightmag.svg" id="img-lightmag" alt="light mag">
+        <img src="/apex/style/images/weapons/attach/Optics.svg" id="img-1times" alt="1x times">
+        <img src="/apex/style/images/weapons/attach/Standard_Stock.svg" id="img-stock" alt="standard stock">
+        <img src="/apex/style/images/weapons/attach/energiemag.svg" id="img-energymag" alt="ernergy mag">
+        <img src="/apex/style/images/weapons/attach/heavymag.svg" id="img-heavymag" alt="heavy mag">
+
+
+        <img src="/apex/style/images/weapons/smg/r99.png" id="img_r99" class="img-weapons" alt="r99">
+        <img src="/apex/style/images/weapons/smg/Volt.png" id="img_volt" class="img-weapons" alt="volt">
+        <img src="/apex/style/images/weapons/smg/prowler.png" id="img_prowler" class="img-weapons" alt="prowler">
+        <img src="/apex/style/images/weapons/smg/alternator.png" id="img_alternator" class="img-weapons" alt="Alternator">
+        <img src="/apex/style/images/weapons/smg/car.png" id="img_car" class="img-weapons" alt="car">
+    </div>
+</body>
+<script src="/apex/js/smg/r99.js"></script>
