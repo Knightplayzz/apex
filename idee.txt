@@ -1,0 +1,7 @@
+smg:-   prowler     1) dark fright
+        Volt        1) geen
+        car         1) geen
+
+ar:-    none
+
+lmg:-   none
