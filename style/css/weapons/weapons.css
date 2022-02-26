@@ -4,6 +4,7 @@ body {
     font-family: 'Poppins';
     overflow-x: hidden;
     scroll-behavior: auto;
+    background-color: #F2F2F2;
 }
 
 .toolBar {
@@ -102,27 +103,7 @@ body {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 990px) {
-    .btn_pages {
-        display: none;
-    }
-    .btn_premium {
-        display: none;
-    }
-    #btn_menu {
-        position: absolute;
-        max-width: 60px;
-        right: 5%;
-        top: -10%;
-    }
-    .search-bar {
-        position: absolute;
-        left: 30%;
-        top: 25%;
-    }
-}
-
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 1100px) {
     #btn_menu {
         display: none;
     }
@@ -222,4 +203,59 @@ body {
     color: black;
     background-color: green;
     display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+    .btn_pages {
+        display: none;
+    }
+    .btn_premium {
+        display: none;
+    }
+    #btn_menu {
+        position: absolute;
+        max-width: 60px;
+        right: 5%;
+        top: -10%;
+    }
+    .search-bar {
+        position: absolute;
+        left: 30%;
+        top: 25%;
+    }
+    .img-flatline {
+        max-width: 25%;
+        top: 50%;
+        left: 5%;
+    }
+    .img-r99 {
+        max-width: 25%;
+        top: 50%;
+        left: 35%;
+    }
+    .img-devotion {
+        max-width: 30%;
+        top: 50%;
+        left: 65%;
+    }
+    .img-g7 {
+        max-width: 30%;
+        top: 60%;
+        left: 2%;
+    }
+    .img-longbow {
+        max-width: 30%;
+        top: 60%;
+        left: 34%;
+    }
+    .img-eva8 {
+        max-width: 30%;
+        top: 60%;
+        left: 68%;
+    }
+    .img-wingman {
+        max-width: 20%;
+        top: 70%;
+        left: 40%;
+    }
 }
