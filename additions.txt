@@ -10,5 +10,3 @@ scroll phone index.html fix
 more checkmarks/text to centre (phone)
 finish itemshop/stats page
 add contact/premium page
-weapon select bit more to right
-
