@@ -46,7 +46,7 @@ const ledrez_text = document.getElementById("ledrez-text")
 const gal_text = document.getElementById("gal-text")
 
 
-
+smg1()
 
 function showHide() {
     if (on === 0) {
