@@ -267,6 +267,11 @@ body {
     display: none;
 }
 
+#btn_prowler {
+    background-color: black;
+    cursor: unset;
+}
+
 #btn_alt {
     background-color: black;
 }
@@ -289,7 +294,7 @@ body {
     }
     .weaponSelect {
         position: absolute;
-        left: 1%;
+        left: 2%;
         top: 10%;
         display: flex;
     }

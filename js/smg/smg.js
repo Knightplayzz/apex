@@ -45,6 +45,9 @@ const killswitch_text = document.getElementById("killswitch-text")
 const ledrez_text = document.getElementById("ledrez-text")
 const gal_text = document.getElementById("gal-text")
 
+const btn_prowler = document.getElementById("btn_prowler")
+const btn_prowler_1 = document.getElementById("btn_prowler_1")
+const img_darkfright = document.getElementById("img-darkfright")
 
 smg1()
 
@@ -99,6 +102,8 @@ function smg1() {
     btn_r99.style.display = 'none'
     btn_gal.style.display = 'block'
     btn_alt.style.display = 'block'
+    btn_prowler.style.display = 'none'
+    btn_prowler_1.style.display = 'none'
 
 }
 
@@ -123,7 +128,7 @@ function smg2() {
     img_1times.style.display = 'block'
     img_energymag.style.display = 'none'
     img_heavymag.style.display = 'block'
-    img_heavymag.style.top = '45%'
+    img_heavymag.style.top = '44%'
 
     btn_killswitch.style.display = 'none'
     btn_outlands.style.display = 'none'
@@ -131,6 +136,8 @@ function smg2() {
     btn_alternator.style = 'none'
     btn_gal.style = 'none'
     btn_alt.style.display = 'none'
+    btn_prowler.style.display = 'block'
+    btn_prowler_1.style.display = 'block'
 
 }
 
@@ -162,6 +169,8 @@ function smg3() {
     btn_alternator.style = 'none'
     btn_gal.style = 'none'
     btn_alt.style.display = 'none'
+    btn_prowler.style.display = 'none'
+    btn_prowler_1.style.display = 'none'
 }
 
 function smg4() {
@@ -192,6 +201,8 @@ function smg4() {
     btn_alternator.style = 'none'
     btn_gal.style = 'none'
     btn_alt.style.display = 'none'
+    btn_prowler.style.display = 'none'
+    btn_prowler_1.style.display = 'none'
 }
 
 function smg5() {
@@ -223,6 +234,8 @@ function smg5() {
     btn_alternator.style = 'none'
     btn_gal.style = 'none'
     btn_alt.style.display = 'none'
+    btn_prowler.style.display = 'none'
+    btn_prowler_1.style.display = 'none'
 }
 
 function clearAllAttach() {
@@ -243,6 +256,7 @@ function clearAllWeapons() {
 }
 
 function clearAllPtw() {
+    img_darkfright.style.display = 'none'
     img_outlands.style.display = 'none'
     img_killswitch.style.display = 'none'
     outlands_text.style.display = 'none'
@@ -326,6 +340,13 @@ function ptw_alternator_5() {
     clearAllWeapons()
     clearAllAttach()
     img_ocean.style.display = 'block'
+}
+
+function ptw_prowler_1() {
+    clearAllPtw()
+    clearAllWeapons()
+    clearAllAttach()
+    img_darkfright.style.display = 'block'
 }
 
 
