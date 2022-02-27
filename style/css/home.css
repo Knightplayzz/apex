@@ -287,8 +287,8 @@ body {
     }
     .container-2 {
         position: relative;
-        min-height: 750px;
-        max-height: 750px;
+        min-height: 800px;
+        max-height: 800px;
         background-color: #20272E;
         z-index: 0;
     }
