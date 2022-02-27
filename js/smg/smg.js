@@ -49,6 +49,12 @@ const btn_prowler = document.getElementById("btn_prowler")
 const btn_prowler_1 = document.getElementById("btn_prowler_1")
 const img_darkfright = document.getElementById("img-darkfright")
 
+const text_r99_2 = document.getElementById("text_r99_2")
+const text_r99_1 = document.getElementById("text_r99_1")
+
+const text_alternator_1 = document.getElementById("text_alternator_1")
+const text_alternator_2 = document.getElementById("text_alternator_2")
+
 smg1()
 
 function showHide() {
@@ -256,6 +262,10 @@ function clearAllWeapons() {
 }
 
 function clearAllPtw() {
+    text_alternator_2.style.display = 'none'
+    text_alternator_1.style.display = 'none'
+    text_r99_2.style.display = 'none'
+    text_r99_1.style.display = 'none'
     img_darkfright.style.display = 'none'
     img_outlands.style.display = 'none'
     img_killswitch.style.display = 'none'
@@ -296,6 +306,7 @@ function ptw_r99_3() {
     clearAllWeapons()
     clearAllAttach()
     img_gnarly.style.display = 'block'
+    text_r99_1.style.display = 'block'
 }
 
 function ptw_r99_4() {
@@ -303,6 +314,7 @@ function ptw_r99_4() {
     clearAllWeapons()
     clearAllAttach()
     img_unloader.style.display = 'block'
+    text_r99_2.style.display = 'block'
 }
 
 function ptw_alternator_1() {
@@ -326,6 +338,7 @@ function ptw_alternator_3() {
     clearAllWeapons()
     clearAllAttach()
     img_palate.style.display = 'block'
+    text_alternator_2.style.display = 'block'
 }
 
 function ptw_alternator_4() {
@@ -333,6 +346,7 @@ function ptw_alternator_4() {
     clearAllWeapons()
     clearAllAttach()
     img_illuminator.style.display = 'block'
+    text_alternator_1.style.display = 'block'
 }
 
 function ptw_alternator_5() {
@@ -340,6 +354,7 @@ function ptw_alternator_5() {
     clearAllWeapons()
     clearAllAttach()
     img_ocean.style.display = 'block'
+    text_alternator_1.style.display = 'block'
 }
 
 function ptw_prowler_1() {

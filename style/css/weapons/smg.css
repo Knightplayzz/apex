@@ -276,6 +276,34 @@ body {
     background-color: black;
 }
 
+.ptw-text2 {
+    position: absolute;
+    max-width: 400px;
+    top: 25%;
+    left: 0%;
+}
+
+#text_r99_1 {
+    left: 10%;
+    display: none;
+    font-size: 20px;
+}
+
+#text_r99_2 {
+    left: 18%;
+    display: none;
+}
+
+#text_alternator_1 {
+    display: none;
+    left: 22%;
+}
+
+#text_alternator_2 {
+    left: 10%;
+    display: none;
+}
+
 @media only screen and (max-width: 1100px) {
     .btn_pages {
         display: none;
