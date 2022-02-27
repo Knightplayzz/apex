@@ -78,8 +78,8 @@ body {
 
 .container-1 {
     position: relative;
-    min-height: 750px;
-    max-height: 750px;
+    min-height: 800px;
+    max-height: 800px;
     background-color: #F2F2F2;
 }
 
