@@ -287,9 +287,10 @@ body {
     }
     .container-2 {
         position: relative;
-        min-height: 700px;
-        max-height: 700px;
+        min-height: 750px;
+        max-height: 750px;
         background-color: #20272E;
+        z-index: 0;
     }
 }
 
