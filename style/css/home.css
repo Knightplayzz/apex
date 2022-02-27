@@ -76,13 +76,6 @@ body {
     font-weight: bold;
 }
 
-.container-1 {
-    position: relative;
-    min-height: 800px;
-    max-height: 800px;
-    background-color: #F2F2F2;
-}
-
 .btn_menu {
     position: absolute;
     right: 0%;
@@ -104,8 +97,7 @@ body {
 
 .container-1 {
     position: relative;
-    min-height: 700px;
-    max-height: 700px;
+    min-height: 800px;
     background-color: #F2F2F2;
 }
 
@@ -291,6 +283,11 @@ body {
         max-height: 800px;
         background-color: #20272E;
         z-index: 0;
+    }
+    .container-1 {
+        position: relative;
+        min-height: 800px;
+        max-height: 800px;
     }
 }
 
