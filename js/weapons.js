@@ -32,27 +32,27 @@ searchBar.addEventListener('keyup', (info) => {
 
 
         if (SMG.includes(searched)) {
-            window.location.href = "/apex/html/weapons/smg/smg.html"
+            window.location.href = "//html/weapons/smg/smg.html"
             return;
         }
         if (R99.includes(searched)) {
-            window.location.href = "/apex/html/weapons/smg/r99.html"
+            window.location.href = "/html/weapons/smg/r99.html"
             return;
         }
         if (Volt.includes(searched)) {
-            window.location.href = "/apex/html/weapons/smg/volt.html"
+            window.location.href = "/html/weapons/smg/volt.html"
             return;
         }
         if (Altenator.includes(searched)) {
-            window.location.href = "/apex/html/weapons/smg/alternator.html"
+            window.location.href = "/html/weapons/smg/alternator.html"
             return;
         }
         if (Prowler.includes(searched)) {
-            window.location.href = "/apex/html/weapons/smg/prowler.html"
+            window.location.href = "/html/weapons/smg/prowler.html"
             return;
         }
         if (Car.includes(searched)) {
-            window.location.href = "/apex/html/weapons/smg/car.html"
+            window.location.href = "/html/weapons/smg/car.html"
             return;
         }
 
@@ -63,27 +63,27 @@ searchBar.addEventListener('keyup', (info) => {
 
 
         if (AR.includes(searched)) {
-            window.location.href = "/apex/html/weapons/ar.html"
+            window.location.href = "/html/weapons/ar.html"
             return
         }
         if (SNIPER.includes(searched)) {
-            window.location.href = "/apex/html/weapons/sniper.html"
+            window.location.href = "/html/weapons/sniper.html"
             return
         }
         if (PISTOL.includes(searched)) {
-            window.location.href = "/apex/html/weapons/pistol.html"
+            window.location.href = "/html/weapons/pistol.html"
             return
         }
         if (LMG.includes(searched)) {
-            window.location.href = "/apex/html/weapons/lmg.html"
+            window.location.href = "/html/weapons/lmg.html"
             return
         }
         if (SHOTGUN.includes(searched)) {
-            window.location.href = "/apex/html/weapons/shotgun.html"
+            window.location.href = "/html/weapons/shotgun.html"
             return
         }
         if (MARKSMAN.includes(searched)) {
-            window.location.href = "/apex/html/weapons/marksman.html"
+            window.location.href = "/html/weapons/marksman.html"
             return
         }
 
